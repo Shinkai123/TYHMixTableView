@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B588BD0237E537E004CCC2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588BCF237E537E004CCC2B /* AppDelegate.m */; };
+		2B588BD9237E537E004CCC2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B588BD7237E537E004CCC2B /* Main.storyboard */; };
+		2B588BDB237E5382004CCC2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B588BDA237E5382004CCC2B /* Assets.xcassets */; };
+		2B588BDE237E5382004CCC2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B588BDC237E5382004CCC2B /* LaunchScreen.storyboard */; };
+		2B588BE1237E5382004CCC2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588BE0237E5382004CCC2B /* main.m */; };
+		2B588BE7237E7256004CCC2B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588BD2237E537E004CCC2B /* SceneDelegate.m */; };
+		2B588BEA237E75C4004CCC2B /* TYHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588BE9237E75C4004CCC2B /* TYHBaseTableViewController.m */; };
+		2B588BEE237E785F004CCC2B /* TYHCellItemGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588BED237E785F004CCC2B /* TYHCellItemGroup.m */; };
+		2B588BF4237E7E55004CCC2B /* TYHCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588BF3237E7E55004CCC2B /* TYHCellItem.m */; };
+		2B588BF7237E8438004CCC2B /* TYHCellArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588BF6237E8438004CCC2B /* TYHCellArrowItem.m */; };
+		2B588BFA237E85D6004CCC2B /* TYHSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588BF9237E85D6004CCC2B /* TYHSwitchItem.m */; };
+		2B588BFD237E87BE004CCC2B /* TYHCustomViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588BFC237E87BE004CCC2B /* TYHCustomViewItem.m */; };
+		2B588C00237E885E004CCC2B /* TYHCenterLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588BFF237E885E004CCC2B /* TYHCenterLabelItem.m */; };
+		2B588C04237E89BD004CCC2B /* TYHTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588C03237E89BD004CCC2B /* TYHTableViewCell.m */; };
+		2B588C07237E928C004CCC2B /* TYHSubCellArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588C06237E928C004CCC2B /* TYHSubCellArrowItem.m */; };
+		2B588C0A237E929D004CCC2B /* TYHSubSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588C09237E929D004CCC2B /* TYHSubSwitchItem.m */; };
+		2B588C0D237E9E64004CCC2B /* TYHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588C0C237E9E64004CCC2B /* TYHBaseViewController.m */; };
+		2B588C102383E8DD004CCC2B /* UIView+TYHExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588C0F2383E8DC004CCC2B /* UIView+TYHExt.m */; };
+		2B588C142383EF39004CCC2B /* NSString+TYHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588C132383EF39004CCC2B /* NSString+TYHCategory.m */; };
+		2B588C172383F576004CCC2B /* TYHLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588C162383F576004CCC2B /* TYHLabelItem.m */; };
+		2B588C1A2384D0A3004CCC2B /* TYHBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588C192384D0A3004CCC2B /* TYHBaseTableView.m */; };
+		2B588C1D2384DBA4004CCC2B /* TYHTableViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588C1C2384DBA4004CCC2B /* TYHTableViewController1.m */; };
+		2B588C222384F195004CCC2B /* TYHNextPageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588C212384F195004CCC2B /* TYHNextPageTableViewController.m */; };
+		2B588C252384F1E3004CCC2B /* TYHNextPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B588C242384F1E3004CCC2B /* TYHNextPageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B588BCB237E537E004CCC2B /* TYHMixTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYHMixTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B588BCE237E537E004CCC2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B588BCF237E537E004CCC2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B588BD1237E537E004CCC2B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2B588BD2237E537E004CCC2B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2B588BD8237E537E004CCC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B588BDA237E5382004CCC2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B588BDD237E5382004CCC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B588BDF237E5382004CCC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B588BE0237E5382004CCC2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B588BE8237E75C4004CCC2B /* TYHBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHBaseTableViewController.h; sourceTree = "<group>"; };
+		2B588BE9237E75C4004CCC2B /* TYHBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHBaseTableViewController.m; sourceTree = "<group>"; };
+		2B588BEC237E785F004CCC2B /* TYHCellItemGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHCellItemGroup.h; sourceTree = "<group>"; };
+		2B588BED237E785F004CCC2B /* TYHCellItemGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHCellItemGroup.m; sourceTree = "<group>"; };
+		2B588BF2237E7E55004CCC2B /* TYHCellItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHCellItem.h; sourceTree = "<group>"; };
+		2B588BF3237E7E55004CCC2B /* TYHCellItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHCellItem.m; sourceTree = "<group>"; };
+		2B588BF5237E8438004CCC2B /* TYHCellArrowItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHCellArrowItem.h; sourceTree = "<group>"; };
+		2B588BF6237E8438004CCC2B /* TYHCellArrowItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHCellArrowItem.m; sourceTree = "<group>"; };
+		2B588BF8237E85D6004CCC2B /* TYHSwitchItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHSwitchItem.h; sourceTree = "<group>"; };
+		2B588BF9237E85D6004CCC2B /* TYHSwitchItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHSwitchItem.m; sourceTree = "<group>"; };
+		2B588BFB237E87BE004CCC2B /* TYHCustomViewItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHCustomViewItem.h; sourceTree = "<group>"; };
+		2B588BFC237E87BE004CCC2B /* TYHCustomViewItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHCustomViewItem.m; sourceTree = "<group>"; };
+		2B588BFE237E885E004CCC2B /* TYHCenterLabelItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHCenterLabelItem.h; sourceTree = "<group>"; };
+		2B588BFF237E885E004CCC2B /* TYHCenterLabelItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHCenterLabelItem.m; sourceTree = "<group>"; };
+		2B588C02237E89BD004CCC2B /* TYHTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHTableViewCell.h; sourceTree = "<group>"; };
+		2B588C03237E89BD004CCC2B /* TYHTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHTableViewCell.m; sourceTree = "<group>"; };
+		2B588C05237E928C004CCC2B /* TYHSubCellArrowItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHSubCellArrowItem.h; sourceTree = "<group>"; };
+		2B588C06237E928C004CCC2B /* TYHSubCellArrowItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHSubCellArrowItem.m; sourceTree = "<group>"; };
+		2B588C08237E929D004CCC2B /* TYHSubSwitchItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHSubSwitchItem.h; sourceTree = "<group>"; };
+		2B588C09237E929D004CCC2B /* TYHSubSwitchItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHSubSwitchItem.m; sourceTree = "<group>"; };
+		2B588C0B237E9E63004CCC2B /* TYHBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHBaseViewController.h; sourceTree = "<group>"; };
+		2B588C0C237E9E64004CCC2B /* TYHBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHBaseViewController.m; sourceTree = "<group>"; };
+		2B588C0E2383E8DC004CCC2B /* UIView+TYHExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TYHExt.h"; sourceTree = "<group>"; };
+		2B588C0F2383E8DC004CCC2B /* UIView+TYHExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYHExt.m"; sourceTree = "<group>"; };
+		2B588C112383ED4F004CCC2B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2B588C122383EF39004CCC2B /* NSString+TYHCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TYHCategory.h"; sourceTree = "<group>"; };
+		2B588C132383EF39004CCC2B /* NSString+TYHCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TYHCategory.m"; sourceTree = "<group>"; };
+		2B588C152383F576004CCC2B /* TYHLabelItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHLabelItem.h; sourceTree = "<group>"; };
+		2B588C162383F576004CCC2B /* TYHLabelItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHLabelItem.m; sourceTree = "<group>"; };
+		2B588C182384D0A3004CCC2B /* TYHBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHBaseTableView.h; sourceTree = "<group>"; };
+		2B588C192384D0A3004CCC2B /* TYHBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHBaseTableView.m; sourceTree = "<group>"; };
+		2B588C1B2384DBA4004CCC2B /* TYHTableViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHTableViewController1.h; sourceTree = "<group>"; };
+		2B588C1C2384DBA4004CCC2B /* TYHTableViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHTableViewController1.m; sourceTree = "<group>"; };
+		2B588C202384F195004CCC2B /* TYHNextPageTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHNextPageTableViewController.h; sourceTree = "<group>"; };
+		2B588C212384F195004CCC2B /* TYHNextPageTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHNextPageTableViewController.m; sourceTree = "<group>"; };
+		2B588C232384F1E3004CCC2B /* TYHNextPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHNextPageViewController.h; sourceTree = "<group>"; };
+		2B588C242384F1E3004CCC2B /* TYHNextPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHNextPageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B588BC8237E537E004CCC2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B588BC2237E537E004CCC2B = {
+			isa = PBXGroup;
+			children = (
+				2B588BCD237E537E004CCC2B /* TYHMixTableView */,
+				2B588BCC237E537E004CCC2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B588BCC237E537E004CCC2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B588BCB237E537E004CCC2B /* TYHMixTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B588BCD237E537E004CCC2B /* TYHMixTableView */ = {
+			isa = PBXGroup;
+			children = (
+				2B588BCE237E537E004CCC2B /* AppDelegate.h */,
+				2B588BCF237E537E004CCC2B /* AppDelegate.m */,
+				2B588BD1237E537E004CCC2B /* SceneDelegate.h */,
+				2B588BD2237E537E004CCC2B /* SceneDelegate.m */,
+				2B588C1E2384F12F004CCC2B /* Controller */,
+				2B588C1F2384F14F004CCC2B /* BaseTool */,
+				2B588BEB237E7748004CCC2B /* Model */,
+				2B588C01237E8998004CCC2B /* View */,
+				2B588BD7237E537E004CCC2B /* Main.storyboard */,
+				2B588BDA237E5382004CCC2B /* Assets.xcassets */,
+				2B588BDC237E5382004CCC2B /* LaunchScreen.storyboard */,
+				2B588BDF237E5382004CCC2B /* Info.plist */,
+				2B588BE0237E5382004CCC2B /* main.m */,
+				2B588C112383ED4F004CCC2B /* PrefixHeader.pch */,
+			);
+			path = TYHMixTableView;
+			sourceTree = "<group>";
+		};
+		2B588BEB237E7748004CCC2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B588BEC237E785F004CCC2B /* TYHCellItemGroup.h */,
+				2B588BED237E785F004CCC2B /* TYHCellItemGroup.m */,
+				2B588BF2237E7E55004CCC2B /* TYHCellItem.h */,
+				2B588BF3237E7E55004CCC2B /* TYHCellItem.m */,
+				2B588BF5237E8438004CCC2B /* TYHCellArrowItem.h */,
+				2B588BF6237E8438004CCC2B /* TYHCellArrowItem.m */,
+				2B588C05237E928C004CCC2B /* TYHSubCellArrowItem.h */,
+				2B588C06237E928C004CCC2B /* TYHSubCellArrowItem.m */,
+				2B588BF8237E85D6004CCC2B /* TYHSwitchItem.h */,
+				2B588BF9237E85D6004CCC2B /* TYHSwitchItem.m */,
+				2B588C08237E929D004CCC2B /* TYHSubSwitchItem.h */,
+				2B588C09237E929D004CCC2B /* TYHSubSwitchItem.m */,
+				2B588BFB237E87BE004CCC2B /* TYHCustomViewItem.h */,
+				2B588BFC237E87BE004CCC2B /* TYHCustomViewItem.m */,
+				2B588BFE237E885E004CCC2B /* TYHCenterLabelItem.h */,
+				2B588BFF237E885E004CCC2B /* TYHCenterLabelItem.m */,
+				2B588C152383F576004CCC2B /* TYHLabelItem.h */,
+				2B588C162383F576004CCC2B /* TYHLabelItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B588C01237E8998004CCC2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B588C02237E89BD004CCC2B /* TYHTableViewCell.h */,
+				2B588C03237E89BD004CCC2B /* TYHTableViewCell.m */,
+				2B588C0E2383E8DC004CCC2B /* UIView+TYHExt.h */,
+				2B588C0F2383E8DC004CCC2B /* UIView+TYHExt.m */,
+				2B588C122383EF39004CCC2B /* NSString+TYHCategory.h */,
+				2B588C132383EF39004CCC2B /* NSString+TYHCategory.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B588C1E2384F12F004CCC2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B588C1B2384DBA4004CCC2B /* TYHTableViewController1.h */,
+				2B588C1C2384DBA4004CCC2B /* TYHTableViewController1.m */,
+				2B588C202384F195004CCC2B /* TYHNextPageTableViewController.h */,
+				2B588C212384F195004CCC2B /* TYHNextPageTableViewController.m */,
+				2B588C232384F1E3004CCC2B /* TYHNextPageViewController.h */,
+				2B588C242384F1E3004CCC2B /* TYHNextPageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B588C1F2384F14F004CCC2B /* BaseTool */ = {
+			isa = PBXGroup;
+			children = (
+				2B588C0B237E9E63004CCC2B /* TYHBaseViewController.h */,
+				2B588C0C237E9E64004CCC2B /* TYHBaseViewController.m */,
+				2B588BE8237E75C4004CCC2B /* TYHBaseTableViewController.h */,
+				2B588BE9237E75C4004CCC2B /* TYHBaseTableViewController.m */,
+				2B588C182384D0A3004CCC2B /* TYHBaseTableView.h */,
+				2B588C192384D0A3004CCC2B /* TYHBaseTableView.m */,
+			);
+			path = BaseTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B588BCA237E537E004CCC2B /* TYHMixTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B588BE4237E5382004CCC2B /* Build configuration list for PBXNativeTarget "TYHMixTableView" */;
+			buildPhases = (
+				2B588BC7237E537E004CCC2B /* Sources */,
+				2B588BC8237E537E004CCC2B /* Frameworks */,
+				2B588BC9237E537E004CCC2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYHMixTableView;
+			productName = TYHMixTableView;
+			productReference = 2B588BCB237E537E004CCC2B /* TYHMixTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B588BC3237E537E004CCC2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TYH;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "YaoHua Tan";
+				TargetAttributes = {
+					2B588BCA237E537E004CCC2B = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B588BC6237E537E004CCC2B /* Build configuration list for PBXProject "TYHMixTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B588BC2237E537E004CCC2B;
+			productRefGroup = 2B588BCC237E537E004CCC2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B588BCA237E537E004CCC2B /* TYHMixTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B588BC9237E537E004CCC2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B588BDE237E5382004CCC2B /* LaunchScreen.storyboard in Resources */,
+				2B588BDB237E5382004CCC2B /* Assets.xcassets in Resources */,
+				2B588BD9237E537E004CCC2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B588BC7237E537E004CCC2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B588C142383EF39004CCC2B /* NSString+TYHCategory.m in Sources */,
+				2B588C0A237E929D004CCC2B /* TYHSubSwitchItem.m in Sources */,
+				2B588C04237E89BD004CCC2B /* TYHTableViewCell.m in Sources */,
+				2B588BD0237E537E004CCC2B /* AppDelegate.m in Sources */,
+				2B588C1D2384DBA4004CCC2B /* TYHTableViewController1.m in Sources */,
+				2B588C172383F576004CCC2B /* TYHLabelItem.m in Sources */,
+				2B588C1A2384D0A3004CCC2B /* TYHBaseTableView.m in Sources */,
+				2B588C102383E8DD004CCC2B /* UIView+TYHExt.m in Sources */,
+				2B588BE1237E5382004CCC2B /* main.m in Sources */,
+				2B588BE7237E7256004CCC2B /* SceneDelegate.m in Sources */,
+				2B588BF7237E8438004CCC2B /* TYHCellArrowItem.m in Sources */,
+				2B588C222384F195004CCC2B /* TYHNextPageTableViewController.m in Sources */,
+				2B588BF4237E7E55004CCC2B /* TYHCellItem.m in Sources */,
+				2B588C00237E885E004CCC2B /* TYHCenterLabelItem.m in Sources */,
+				2B588BEE237E785F004CCC2B /* TYHCellItemGroup.m in Sources */,
+				2B588BEA237E75C4004CCC2B /* TYHBaseTableViewController.m in Sources */,
+				2B588BFD237E87BE004CCC2B /* TYHCustomViewItem.m in Sources */,
+				2B588BFA237E85D6004CCC2B /* TYHSwitchItem.m in Sources */,
+				2B588C252384F1E3004CCC2B /* TYHNextPageViewController.m in Sources */,
+				2B588C0D237E9E64004CCC2B /* TYHBaseViewController.m in Sources */,
+				2B588C07237E928C004CCC2B /* TYHSubCellArrowItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B588BD7237E537E004CCC2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B588BD8237E537E004CCC2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B588BDC237E5382004CCC2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B588BDD237E5382004CCC2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B588BE2237E5382004CCC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B588BE3237E5382004CCC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B588BE5237E5382004CCC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5LE4LDJCG;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TYHMixTableView/PrefixHeader.pch";
+				INFOPLIST_FILE = TYHMixTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TYHMixTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B588BE6237E5382004CCC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5LE4LDJCG;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TYHMixTableView/PrefixHeader.pch";
+				INFOPLIST_FILE = TYHMixTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TYHMixTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B588BC6237E537E004CCC2B /* Build configuration list for PBXProject "TYHMixTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B588BE2237E5382004CCC2B /* Debug */,
+				2B588BE3237E5382004CCC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B588BE4237E5382004CCC2B /* Build configuration list for PBXNativeTarget "TYHMixTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B588BE5237E5382004CCC2B /* Debug */,
+				2B588BE6237E5382004CCC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B588BC3237E537E004CCC2B /* Project object */;
+}
